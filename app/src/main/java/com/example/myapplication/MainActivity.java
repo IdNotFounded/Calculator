@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 float num1 = Float.parseFloat(form_number1.getText().toString());
-                float num2 = Float.parseFloat(form_number1.getText().toString());
+                float num2 = Float.parseFloat(form_number2.getText().toString());
                 float res = num1 + num2;
                 resultTextView.setText(String.valueOf(res));
             }
